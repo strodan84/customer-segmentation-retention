@@ -1,3 +1,5 @@
 # Customer Segmentation & Churn Prediction Analysis
 
-RFMT Modelling with KMeans algorithm.
+In this project, I analyze transaction data, using RFMT Modelling with KMeans algorithm, to identify high-value customer segments and predict churn risk to inform marketing retention strategies.
+
+The dataset used here comes from [https://www.kaggle.com/datasets/mashlyn/online-retail-ii-uci?resource=download](this Kaggle page:)
