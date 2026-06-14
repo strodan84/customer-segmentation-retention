@@ -1,1 +1,1 @@
-# customer-segmentation-retention
+# Customer Segmentation & Churn Prediction Analysis
