@@ -2,7 +2,10 @@
 
 In this project, I analyze transaction data, using RFMT Modelling with KMeans algorithm, to identify high-value customer segments and predict churn risk to inform marketing retention strategies.
 
-The dataset used here comes from [https://www.kaggle.com/datasets/mashlyn/online-retail-ii-uci?resource=download](this Kaggle page:)
+--------------
+## Dataset
+
+The dataset used here comes from <a href='https://www.kaggle.com/datasets/mashlyn/online-retail-ii-uci?resource=download'>HERE.</a>
 
 --------------
 ## Dashboard
