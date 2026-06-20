@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Customer Segmentation Analysis</title>
+<title>Customer Segmentation Dashboard – Customer Segmentation Analysis</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,38 +23,121 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="customer_segmentation_files/libs/clipboard/clipboard.min.js"></script>
-<script src="customer_segmentation_files/libs/quarto-html/quarto.js" type="module"></script>
-<script src="customer_segmentation_files/libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="customer_segmentation_files/libs/quarto-html/axe/axe-check.js" type="module"></script>
-<script src="customer_segmentation_files/libs/quarto-html/popper.min.js"></script>
-<script src="customer_segmentation_files/libs/quarto-html/tippy.umd.min.js"></script>
-<script src="customer_segmentation_files/libs/quarto-html/anchor.min.js"></script>
-<link href="customer_segmentation_files/libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="customer_segmentation_files/libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="customer_segmentation_files/libs/bootstrap/bootstrap.min.js"></script>
-<link href="customer_segmentation_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="customer_segmentation_files/libs/bootstrap/bootstrap-4d7f0bce1131f3e5f9547cd857cfbfc8.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-e31584831b205ffbb2d98406f31c2a5b.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
 
 
+<link rel="stylesheet" href="assets/style.css">
 </head>
 
-<body class="quarto-light">
+<body class="nav-fixed quarto-light">
 
-<div id="quarto-content" class="page-columns page-rows-contents page-layout-full">
-<div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-  
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">Customer Segmentation Analysis</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link active" href="./index.html" aria-current="page"> 
+<span class="menu-text">Overview</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./01_executive_summary.html"> 
+<span class="menu-text">Executive Summary</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./02_segmentation_analysis.html"> 
+<span class="menu-text">Segments</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./03_business_insights.html"> 
+<span class="menu-text">Insights</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
 </div>
-<main class="content column-page" id="quarto-document-content">
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul class="collapse">
+  <li><a href="#whats-inside" id="toc-whats-inside" class="nav-link active" data-scroll-target="#whats-inside">📊 What’s inside</a></li>
+  <li><a href="#navigation" id="toc-navigation" class="nav-link" data-scroll-target="#navigation">🧭 Navigation</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content column-page-left" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Customer Segmentation Analysis</h1>
+<h1 class="title">Customer Segmentation Dashboard</h1>
 </div>
 
 
 
-<div class="quarto-title-meta column-page">
+<div class="quarto-title-meta column-page-left">
 
     
   
@@ -72,26 +155,38 @@ ul.task-list li input[type="checkbox"] {
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Important
+<span class="screen-reader-only">Important</span>Executive Overview
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Key Insight</p>
-<p>Customer revenue is highly concentrated, with a small number of enterprise and “whale” customers driving disproportionate value.</p>
-<p>The system exhibits a strong Pareto (80/20) structure, with extreme non-linearity in customer value across clusters.</p>
+<p>This project analyzes customer segmentation patterns to identify revenue concentration, customer value tiers, and strategic growth opportunities.</p>
+<p>Key finding: <strong>Revenue is highly concentrated in a small number of high-value customers (Pareto structure).</strong></p>
 </div>
 </div>
-<p>📊 3. Revenue Distribution Across Clusters</p>
-<p>import pandas as pd import plotly.express as px</p>
-<p>df = pd.DataFrame({ “Cluster”: [“0”,“1”,“2”,“3”,“4”], “Revenue”: [1.2e6, 1.2e6, 9.3e6, 2.5e6, 1.6e6], })</p>
-<p>fig = px.bar( df, x=“Cluster”, y=“Revenue”, text=df[“Revenue”].map(lambda x: f”${x/1e6:.1f}M”), title=“Total Revenue by Customer Cluster” )</p>
-<p>fig.update_traces(textposition=“outside”) fig</p>
-<p>df2 = pd.DataFrame({ “Cluster”: [“0”,“1”,“2”,“3”,“4”], “Customers”: [960, 940, 2320, 35, 2] })</p>
-<p>fig = px.bar( df2, x=“Cluster”, y=“Customers”, text=“Customers”, title=“Customer Count by Cluster” )</p>
-<p>fig.update_traces(textposition=“outside”) fig</p>
+<hr>
+<section id="whats-inside" class="level2">
+<h2 class="anchored" data-anchor-id="whats-inside">📊 What’s inside</h2>
+<ul>
+<li>Executive summary of segmentation results<br>
+</li>
+<li>Cluster-level revenue breakdown<br>
+</li>
+<li>Customer value stratification<br>
+</li>
+<li>Revenue concentration (risk analysis)<br>
+</li>
+<li>Strategic business implications</li>
+</ul>
+<hr>
+</section>
+<section id="navigation" class="level2">
+<h2 class="anchored" data-anchor-id="navigation">🧭 Navigation</h2>
+<p>Use the top menu to explore the full analysis.</p>
 
-</main>
-<!-- /main column -->
+
+</section>
+
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";

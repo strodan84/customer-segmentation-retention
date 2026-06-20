@@ -1,0 +1,100 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Customer Segmentation Dashboard",
+    "section": "",
+    "text": "ImportantExecutive Overview\n\n\n\nThis project analyzes customer segmentation patterns to identify revenue concentration, customer value tiers, and strategic growth opportunities.\nKey finding: Revenue is highly concentrated in a small number of high-value customers (Pareto structure)."
+  },
+  {
+    "objectID": "index.html#whats-inside",
+    "href": "index.html#whats-inside",
+    "title": "Customer Segmentation Dashboard",
+    "section": "📊 What’s inside",
+    "text": "📊 What’s inside\n\nExecutive summary of segmentation results\n\nCluster-level revenue breakdown\n\nCustomer value stratification\n\nRevenue concentration (risk analysis)\n\nStrategic business implications"
+  },
+  {
+    "objectID": "index.html#navigation",
+    "href": "index.html#navigation",
+    "title": "Customer Segmentation Dashboard",
+    "section": "🧭 Navigation",
+    "text": "🧭 Navigation\nUse the top menu to explore the full analysis."
+  },
+  {
+    "objectID": "02_segmentation_analysis.html",
+    "href": "02_segmentation_analysis.html",
+    "title": "Segmentation Analysis",
+    "section": "",
+    "text": "import pandas as pd import plotly.express as px\ndf = pd.DataFrame({ “Cluster”: [“0”,“1”,“2”,“3”,“4”], “Revenue”: [1.2e6, 1.2e6, 9.3e6, 2.5e6, 1.6e6], “Customers”: [960, 940, 2320, 35, 2], “RPC”: [1250, 1275, 4000, 71428, 800000] })\npx.bar(df, x=“Cluster”, y=“Revenue”, text=df[“Revenue”].map(lambda x: f”${x/1e6:.1f}M”), title=“Revenue Distribution Across Clusters”)\npx.bar(df, x=“Cluster”, y=“Customers”, text=“Customers”, title=“Customer Count by Cluster”)\npx.bar(df, x=“Cluster”, y=“RPC”, title=“Revenue per Customer (Log Scale)”).update_yaxes(type=“log”)"
+  },
+  {
+    "objectID": "01_executive_summary.html",
+    "href": "01_executive_summary.html",
+    "title": "Executive Summary",
+    "section": "",
+    "text": "Customer revenue follows a strong Pareto distribution, where:\n\nA small number of clusters dominate total revenue\nHigh-value customers are extremely scarce but disproportionately important\nMid-tier customers form the operational backbone"
+  },
+  {
+    "objectID": "01_executive_summary.html#key-insight",
+    "href": "01_executive_summary.html#key-insight",
+    "title": "Executive Summary",
+    "section": "",
+    "text": "Customer revenue follows a strong Pareto distribution, where:\n\nA small number of clusters dominate total revenue\nHigh-value customers are extremely scarce but disproportionately important\nMid-tier customers form the operational backbone"
+  },
+  {
+    "objectID": "01_executive_summary.html#business-interpretation",
+    "href": "01_executive_summary.html#business-interpretation",
+    "title": "Executive Summary",
+    "section": "Business Interpretation",
+    "text": "Business Interpretation\n\nCluster 2 = primary revenue engine\n\nClusters 3–4 = high-value enterprise + whale accounts\n\nClusters 0–1 = low ARPU mass market"
+  },
+  {
+    "objectID": "01_executive_summary.html#strategic-implications",
+    "href": "01_executive_summary.html#strategic-implications",
+    "title": "Executive Summary",
+    "section": "Strategic Implications",
+    "text": "Strategic Implications\n\n\n\n\n\n\nWarning\n\n\n\nRevenue concentration introduces dependency risk, but also highlights clear upsell opportunities in mid-tier segments."
+  },
+  {
+    "objectID": "03_business_insights.html#markdown-idq5",
+    "href": "03_business_insights.html#markdown-idq5",
+    "title": "📈 6. 03_business_insights.qmd",
+    "section": "```markdown id=“q5”",
+    "text": "```markdown id=“q5”"
+  },
+  {
+    "objectID": "03_business_insights.html#title-business-insights",
+    "href": "03_business_insights.html#title-business-insights",
+    "title": "📈 6. 03_business_insights.qmd",
+    "section": "title: “Business Insights”",
+    "text": "title: “Business Insights”"
+  },
+  {
+    "objectID": "03_business_insights.html#revenue-concentration",
+    "href": "03_business_insights.html#revenue-concentration",
+    "title": "📈 6. 03_business_insights.qmd",
+    "section": "📌 Revenue Concentration",
+    "text": "📌 Revenue Concentration\n\nRevenue is not evenly distributed\nCluster 2 dominates total revenue\nClusters 3–4 create extreme skew"
+  },
+  {
+    "objectID": "03_business_insights.html#risk-profile",
+    "href": "03_business_insights.html#risk-profile",
+    "title": "📈 6. 03_business_insights.qmd",
+    "section": "⚠️ Risk Profile",
+    "text": "⚠️ Risk Profile\n\n\n\n\n\n\nImportant\n\n\n\nA small number of customers contribute a large share of revenue → high concentration risk"
+  },
+  {
+    "objectID": "03_business_insights.html#growth-opportunities",
+    "href": "03_business_insights.html#growth-opportunities",
+    "title": "📈 6. 03_business_insights.qmd",
+    "section": "🚀 Growth Opportunities",
+    "text": "🚀 Growth Opportunities\n\nUpsell Clusters 0–2 into higher tiers\n\nExpand ARPU in Cluster 2 (core leverage point)\n\nProtect Cluster 3–4 accounts (critical revenue stability)"
+  },
+  {
+    "objectID": "03_business_insights.html#key-takeaway",
+    "href": "03_business_insights.html#key-takeaway",
+    "title": "📈 6. 03_business_insights.qmd",
+    "section": "🧠 Key Takeaway",
+    "text": "🧠 Key Takeaway\nThis is a power-law customer system, not a uniform segmentation."
+  }
+]
