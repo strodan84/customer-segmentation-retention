@@ -1,0 +1,37 @@
+
+---
+
+# 📈 6. `03_business_insights.qmd`
+
+```markdown id="q5"
+---
+title: "Business Insights"
+---
+
+## 📌 Revenue Concentration
+
+- Revenue is not evenly distributed
+- Cluster 2 dominates total revenue
+- Clusters 3–4 create extreme skew
+
+---
+
+## ⚠️ Risk Profile
+
+::: {.callout-important}
+A small number of customers contribute a large share of revenue → **high concentration risk**
+:::
+
+---
+
+## 🚀 Growth Opportunities
+
+- Upsell Clusters 0–2 into higher tiers  
+- Expand ARPU in Cluster 2 (core leverage point)  
+- Protect Cluster 3–4 accounts (critical revenue stability)  
+
+---
+
+## 🧠 Key Takeaway
+
+This is a **power-law customer system**, not a uniform segmentation.

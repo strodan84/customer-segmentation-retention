@@ -1,0 +1,28 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Customer Segmentation Analysis"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Overview
+      - href: 01_executive_summary.qmd
+        text: Executive Summary
+      - href: 02_segmentation_analysis.qmd
+        text: Segments
+      - href: 03_business_insights.qmd
+        text: Insights
+
+format:
+  html:
+    theme: cosmo
+    toc: true
+    toc-depth: 2
+    page-layout: full
+    code-fold: true
+    css: assets/style.css
+
+execute:
+  echo: false

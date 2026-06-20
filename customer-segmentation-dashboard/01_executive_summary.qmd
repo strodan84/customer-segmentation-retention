@@ -1,0 +1,27 @@
+---
+title: "Executive Summary"
+---
+
+## Key Insight
+
+Customer revenue follows a **strong Pareto distribution**, where:
+
+- A small number of clusters dominate total revenue
+- High-value customers are extremely scarce but disproportionately important
+- Mid-tier customers form the operational backbone
+
+---
+
+## Business Interpretation
+
+- **Cluster 2** = primary revenue engine  
+- **Clusters 3–4** = high-value enterprise + whale accounts  
+- **Clusters 0–1** = low ARPU mass market  
+
+---
+
+## Strategic Implications
+
+::: {.callout-warning}
+Revenue concentration introduces **dependency risk**, but also highlights clear **upsell opportunities** in mid-tier segments.
+:::

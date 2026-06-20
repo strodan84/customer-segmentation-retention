@@ -1,0 +1,27 @@
+---
+title: "Customer Segmentation Dashboard"
+---
+
+::: {.callout-important}
+## Executive Overview
+
+This project analyzes customer segmentation patterns to identify revenue concentration, customer value tiers, and strategic growth opportunities.
+
+Key finding: **Revenue is highly concentrated in a small number of high-value customers (Pareto structure).**
+:::
+
+---
+
+## 📊 What’s inside
+
+- Executive summary of segmentation results  
+- Cluster-level revenue breakdown  
+- Customer value stratification  
+- Revenue concentration (risk analysis)  
+- Strategic business implications  
+
+---
+
+## 🧭 Navigation
+
+Use the top menu to explore the full analysis.
