@@ -6,4 +6,5 @@ The dataset used here comes from [https://www.kaggle.com/datasets/mashlyn/online
 
 --------------
 ## Dashboard
-You can view my dashboard [[https://(https://strodan84.github.io/customer-segmentation-project/](HERE).
+
+👉 **Live Dashboard:** https://strodan84.github.io/customer-segmentation-project/
