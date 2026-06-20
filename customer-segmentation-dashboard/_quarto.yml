@@ -4,6 +4,7 @@ project:
 
 website:
   title: "Customer Segmentation Analysis"
+  page-navigation: true
   navbar:
     left:
       - href: index.qmd
@@ -21,7 +22,7 @@ format:
     toc: true
     toc-depth: 2
     page-layout: full
-    code-fold: true
+    code-fold: false
     css: assets/style.css
 
 execute:
