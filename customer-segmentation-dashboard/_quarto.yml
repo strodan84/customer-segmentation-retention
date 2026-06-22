@@ -3,7 +3,7 @@ project:
   output-dir: ../docs
 
 website:
-  title: "Customer Segmentation Analysis"
+  title: "Customer-Segmentation-Analysis"
   page-navigation: true
   navbar:
     left:
