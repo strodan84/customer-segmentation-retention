@@ -10,4 +10,4 @@ The online retail transaction data set of two years used in this analysis can be
 
 ## Dashboard
 
-👉 <a href='https://strodan84.github.io/Customer Segmentation Analysis/'>**Live Dashboard:**</a> 
+👉 <a href='https://strodan84.github.io/Customer-Segmentation-Analysis/'>**Live Dashboard:**</a> 
