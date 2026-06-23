@@ -1,5 +1,7 @@
 # Customer Segmentation & Churn Prediction Analysis
 
+![Dashboard Preview](images/dashboard_preview.png)
+
 🚀 **Live Dashboard:** https://strodan84.github.io/customer-segmentation-retention/
 
 ## Project Overview
