@@ -1,9 +1,3 @@
-
----
-
-# 📈 6. `03_business_insights.qmd`
-
-```markdown id="q5"
 ---
 title: "Business Insights"
 ---

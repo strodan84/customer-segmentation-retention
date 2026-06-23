@@ -3,7 +3,7 @@ project:
   output-dir: ../docs
 
 website:
-  title: "Customer-Segmentation-Analysis"
+  title: "Customer Segmentation Analysis"
   page-navigation: true
   navbar:
     left:
@@ -23,6 +23,7 @@ format:
     toc-depth: 2
     page-layout: full
     code-fold: false
+    embed-resources: true
     css: assets/style.css
 
 execute:
